@@ -1,37 +1,62 @@
+body {
+    background: linear-gradient(to left top, lightskyblue, lightgoldenrodyellow);
+    background-attachment: fixed;
+}
+
 h1 {
-    font-size: ;
-    font-family: ;
+    text-align: center;
+    font-size: 56pt;
+    font-family: 'Merriweather', serif;
     padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+    margin: 1em auto;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(121, 144, 214);
+    text-shadow: 0 1px rgb(241, 245, 163), 0 3px rgb(126, 184, 211);
+    letter-spacing: 5px;
 }
 
 h2 {
-    font-size: ;
+    font-size: 180%;
     font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    padding: 2em auto;
+    margin: 1em;
+    font-weight: 500;
+    color: darkslateblue;
+    text-transform: uppercase;
+    border-bottom: 1px solid darkslateblue;
+    letter-spacing: 0.1em;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    margin-left: 10em;
+    margin-right: 10em;
+    color: #444;
+    line-height: 1.8em;
+}
+
+h2 + p {
+    margin-top: 3em;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    margin: auto;
+    margin-top: 5em;
+    background-image:  url('https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png');
+    background-color: linear-gradient(to left top, lightskyblue, lightgoldenrodyellow);
+    height: 150px;
+    width: 150px;
+    background-position: center bottom;
+}
+
+#final {
+    border-bottom: 1px solid darkslateblue;
+    margin: 3em;
+}
+
+#lastp {
+    margin-bottom: 3em;
 }
